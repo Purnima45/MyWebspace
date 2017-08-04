@@ -8,6 +8,7 @@
 .navbar-inverse .navbar-brand {
 	font-size: 20px;
 	color: #FFFFFF;
+	width: auto;
 }
 
 .navbar-inverse .navbar-brand: hover,
@@ -55,18 +56,26 @@ body {
 p{
 	font-family: 'Roboto', sans-serif;
 	float: center;
+	font-weight: 800;
+	color: 	black;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Roboto', sans-serif;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
+	color: black;
 }
 
 h4 {
-	margin-left: 90px;
+	margin-left: 290px;
 }
 
 
+/*.container1{
+	
+	width: 100%;
+	
+}*/
 
 .jumbotron{
 	background-image: url("http://lancedesign.org/en/wp-content/uploads/2016/05/Website-Design-Background-1.jpg"); no-repeat center center fixed; 
@@ -85,6 +94,25 @@ h4 {
      color:  #FFFF99;
      font-size: 30px;
      text-align: left;
+}
+
+.sentence1{
+	color: #FFFF99;
+	font-size: 16px;
+	
+}
+
+.color5{
+	
+	color: white;
+	vertical-align: center-left;
+	
+}
+
+.color6{
+	
+	color: #00abe9;
+	
 }
 
 .slidingVertical{
@@ -198,10 +226,10 @@ h4 {
 }*/
 
 .well {
-	margin-top: 30px;
+	margin-top: 10px;
 	background-color: #A9A9A9;
 	padding: 5px;
-	height: 270px;
+	height: 402px;
 	width: 270px;
 }
 
@@ -212,6 +240,11 @@ h4 {
 	border-radius: 5px;
 	
 }
+
+/*.skill-area {
+	
+	background-color: #CAEBF2;
+}*/
 
 /*.no-padding {
 	padding-left: 0px;
@@ -245,10 +278,10 @@ h4 {
 	transform: translateY(-50%);
 }*/
 
-/*.color1 {
+.color1 {
 	opacity: 0.2;
 	filter: alpha(opacity=20); /* For IE8 and earlier */
-}*/
+}
 
 @media screen and (min-width:300px)
 
@@ -766,3 +799,184 @@ transition-delay:.2s;
   margin: auto;
   text-align: center;
 }*/
+
+/*--------------------------
+    13. Contact form area
+----------------------------*/
+/*.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form input[type="submit"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #ededed;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contact-form textarea {
+    min-height: 170px;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-bottom: 1px solid #17202A;
+}
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="submit"]:focus {
+    background: #17202A;
+    color: #fff;
+}
+.contact-form input[type="submit"] {
+    margin-bottom: 0;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+    background: #fff;
+    color: #34495E;
+}*/
+
+.contacts-area {
+    color: #fff;
+    position: relative;
+}
+.contacts-bg {
+    background: rgba(0, 0, 0, 0) url("img/uczbvribdvq-teddy-kelley.jpg") no-repeat scroll center center / cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    margin-top: -45px;
+}
+.contacts-bg:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.our-address {
+    background: rgba(52,73,94, 0.6);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 2px;
+	margin-right: -475px;
+}
+.address-list ul {
+    margin: 0;
+    padding: 0;
+}
+.address-list ul li i {
+    border-radius: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    box-shadow:  0 1px 4px 0 rgba(23, 32, 42, 1);
+    color: #fff;
+}
+.address-list .cn-icon {
+    display: block;
+    float: left;
+    padding: 3px 0 3px 3px;
+    width: 10%;
+}
+.address-list p {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 11px;
+    width: 90%;
+    color: #fff;
+}
+.address-list a {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 11px;
+    width: 90%;
+    color: #fff;
+}
+.address-list a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.address-list ul li {
+    display: block;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+/*--------------------------
+    14. Join us social link
+----------------------------*/
+.join-us-area {
+    color: #fff;
+    position: relative;
+}
+.s-link {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: auto 10px;
+    position: relative;
+    width: 40px;
+    z-index: 5;
+}
+.s-link a {
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+.s-link::before {
+    background: #34495E none repeat scroll 0 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+    border-radius: 4px;
+}
+.s-link:hover::before {
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.15) !important;
+    background: #17202A;
+}
+.s-link.facebook:hover::before {
+    background: #3b5998;
+}
+.s-link.twitter:hover::before {
+    background: #00A9F1;
+}
+.s-link.google-plus:hover::before {
+    background: #DC4E41;
+}
+.s-link.linkedin:hover::before {
+    background: #007BB6;
+}
+.s-link.github:hover::before {
+    background: #333333;
+}
+
+.social-small .s-link {
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+}
+.social-small .s-link a {
+  font-size: 12px;
+}
+
